@@ -1,0 +1,75 @@
+header {
+    height: 10vh;
+}
+
+.logo{
+    width:70px;
+   
+}
+
+.contenedorGeneral {
+    height: 90vh;
+    margin: 4px;
+}
+
+.contenedorProductos {
+    height: 100%;
+    overflow-y: scroll;
+    
+}
+
+.contenedorCarrito {
+    height: 100%;
+    overflow: scroll;
+    background-color: #e8daf5;
+}
+
+.productoImg {
+    max-height: 450px;
+    
+    
+}
+
+.btn:hover{
+    background:#16f0c4;
+    border: 3px solid;
+    text-align:center;
+    box-shadow: -1px -1px;
+    border-radius:2px;
+    
+}
+
+.btn{
+    width:auto;
+    margin: 3px;
+    
+}
+
+.tituloPrincipal{
+    text-transform: uppercase;
+    color: #4a25f1;
+}
+
+.tituloDelCarrito{
+
+    text-align: center;
+}
+
+.tituloNegrita{
+    font-weight: bold;
+
+}
+
+h5{
+    text-transform: uppercase;
+    color: #4a25f1;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 1px;
+    background-color: #abaaaa;
+    color: #ffffff;
+  }

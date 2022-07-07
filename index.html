@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link rel="stylesheet" href="estilos.css"> 
+   <title>Carrito</title>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+    <header class="bg-dark">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <img src="./imagen/logo.jpg" class="logo" alt="Logo">
+          <a class="navbar-brand tituloPrincipal" href="" >Carrito de compras 🛒❗</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+      <main class="container-fluid">
+        
+      
+
+        <div class="row contenedorGeneral">
+
+          <!-- Columna izquierda -->
+            <div class="col-8  contenedorProductos">
+                <div class="row tarjetas">
+                </div>
+            </div>
+            
+
+            <!-- Columna derecha -->
+            <div class="col-4 contenedorCarrito">
+
+                <div class="container-fluid tarjeta">
+
+                        <h3 class="text-center tituloDelCarrito">Productos en el 🛒</h3>
+
+                        <h3 class="text-center tituloNegrita">Total: $<span class="totalvisual">0</span></h3>
+
+                    <div class="row innerCart">
+                    </div>
+
+                    <div class="row botoneraDelCarrito" >
+                      <button type="button" class="btn btn-success finalizar">Finalizar Compra</button>
+                      <button type="button" class="btn btn-danger btn-sm vaciar">Vaciar Carrito</button>
+                    </div>
+
+                </div>
+
+            </div> 
+
+
+        </div>
+      </main>
+    
+      <!-- FOOTER -->
+
+      <footer>
+        <div class="container-fluid">
+        <p>Autor: Melina Yangüez <i class="fa fa-copyright" aria-hidden="true">2022</i></p>
+        <p><a href="mailto:melinayanguez@gmail.com"> Contacto mail</a></p>
+      </div>
+      </footer>
+
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="./js/index.js" type="module"></script>
+</body>
+</html>
